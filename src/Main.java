@@ -104,7 +104,7 @@ public class Main {
             for(int i=0; i<catalogo.size(); i++ ){
                 if(catalogo.get(i).getSegurPe() == 3){
                     if(familia.getMascotas() <= 4){
-                        System.out.println("El perro "+catalogo.get(i).getName()+" a sido asignado a la familia"+familia.getApellido());
+                        System.out.println("El perro "+catalogo.get(i).getName()+" a sido asignado a la familia "+familia.getApellido());
                         catalogo.remove(i);
                         familia.setMascotas(familia.getMascotas()+1);
                     }
