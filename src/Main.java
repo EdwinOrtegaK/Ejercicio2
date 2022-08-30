@@ -13,9 +13,9 @@ public class Main {
     public static void main(String[] args){
         System.out.println("===Ingrese Primera familia===");
         familys[0] = newFamilia();
-        System.out.println("===Ingrese la segunda familia===");
+        System.out.println("===Ingrese la Segunda familia===");
         familys[1] = newFamilia();
-        System.out.println("===Ingrese la tercera familia===");
+        System.out.println("===Ingrese la Tercera familia===");
         familys[2] = newFamilia();
         String hulu = "s";
         do{
